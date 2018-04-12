@@ -1,0 +1,105 @@
+
+.formhr{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.forminputcont{
+	margin: 5px 0px 5px 0px; 
+}
+
+.forminput, .forminput:focus{
+  border: 0px; border-bottom: 1px solid rgba(136, 129, 129, .45); 
+  background-color: transparent;
+  margin: 0px 0px 0px 0px; 
+  font-size: 15px;
+}
+
+.parsley-errors-list {
+	text-align: left;
+	font-size: 13px;
+	color: #a00000;
+}
+.parsley-errors-list p{
+	margin-bottom: 0px!important;
+	padding-left: 15px;
+} 
+
+.formoptbtn, .formoptbtn:hover{
+	background-color: white; color:red;
+}
+
+.form-section {
+  display: none;
+  transition: 1s;
+}
+.form-section.current {
+  display: block;
+  transition: 1s;
+}
+
+.previous{
+	display: none;
+}
+.submit{
+	display: none;
+}
+
+#fC1, #fC2{
+	display: none; color:dimgrey
+}
+
+.img{
+	height: 175px;
+	background-color: #695959;
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center center;
+	border: 1px solid grey;
+}
+
+#img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#ititle{
+	padding-top: 70px;
+}
+
+#progress{
+	transition: 1s;
+}
+
+#filerrormsg{
+	height: 19px;
+	font-size: 13px;
+	color: #a00000;
+	text-align: left;
+}
+
+#admilabel{
+	font-size: 12px;
+}
+
+#sectiontitle{
+	font-weight: 400!important;
+	letter-spacing: 1.5px; 
+	word-spacing: 3px; 
+	font-size: 15px;
+}
+
+.acadsel, .acadsel:focus{
+	border: 0px; 
+	border-bottom: 1px solid rgba(136, 129, 129, .45);
+	background-color: transparent;
+	font-size: 15px;
+}
+
+.modal-header{
+	background-color: crimson;
+	color: white;
+}
+.modal-body{
+	color:grey;
+}

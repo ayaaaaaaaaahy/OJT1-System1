@@ -1,0 +1,32 @@
+.formalert{
+  width: inherit;
+}
+
+.formhr{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.forminputcont{
+	margin: 25px 0px 25px 0px; 
+}
+
+.forminput, .forminput:focus{
+  border: 0px; border-bottom: 1px solid rgba(136, 129, 129, .45); 
+  background-color: transparent;
+  margin: 0px 0px 0px 0px; 
+  font-size: 15px;
+}
+
+.parsley-errors-list {
+	text-align: left;
+	font-size: 13px;
+	color: #a00000;
+}
+.parsley-errors-list p{
+	margin-bottom: 0px!important;
+	padding-left: 15px;
+} 
+
+.formoptbtn, .formoptbtn:hover{
+	background-color: white; color:red;
+}
